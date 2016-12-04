@@ -1,4 +1,10 @@
 
+From fresh image
+================
+- install vbox tools and remove iso
+- set any pre settings (keyboard layout, windows settings)
+- add fw rule?
+
 Configure WinRS
 ===============
 #http://huestones.co.uk/node/305
