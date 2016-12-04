@@ -63,6 +63,7 @@ Install-ChocolateyPackage @packageArgs # https://chocolatey.org/docs/helpers-ins
 ## - https://chocolatey.org/docs/helpers-install-chocolatey-install-package
 ## add additional optional arguments as necessary
 ##Install-ChocolateyPackage $packageName $fileType $silentArgs $url [$url64 -validExitCodes $validExitCodes -checksum $checksum -checksumType $checksumType -checksum64 $checksum64 -checksumType64 $checksumType64]
+Install-ChocolateyPackage pip
 
 ## Download and unpack a zip file - https://chocolatey.org/docs/helpers-install-chocolatey-zip-package
 ##Install-ChocolateyZipPackage $packageName $url $toolsDir [$url64 -checksum $checksum -checksumType $checksumType -checksum64 $checksum64 -checksumType64 $checksumType64]
