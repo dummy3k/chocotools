@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(name='chocotools',
-    version='0.2',
+    version='0.1',
     description='Chocolatey tools',
     packages=['chocotools'],
     # requires=['aiohttp',
@@ -13,7 +13,7 @@ setup(name='chocotools',
               # 'numpy'],
     entry_points={
         'console_scripts': [
-            'chocotools=chocotools:main',
+            'chocotools=chocotools.cli:main',
         ],
     },
  )
